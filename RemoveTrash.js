@@ -94,4 +94,4 @@ removeTrash();
 setInterval(function () {
     AdRemoveA();
     AdRemoveDiv();
-}, 100)
+}, 350)
