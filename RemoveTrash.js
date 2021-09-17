@@ -66,7 +66,10 @@ function removeTrash()
         rightmenu.setAttribute("style", "display: none !important;");
     }
 
-    post.setAttribute("style", "display: none !important;");
+    if (post != null)
+    {
+        post.setAttribute("style", "display: none !important;");
+    }
     about[0].setAttribute("style", "display: none !important;");
     ts_wrap.setAttribute("style", "display: none !important;");
     ads.setAttribute("style", "display: none !important;");
