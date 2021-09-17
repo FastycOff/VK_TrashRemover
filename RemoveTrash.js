@@ -70,10 +70,7 @@ function removeTrash()
     {
         post.setAttribute("style", "display: none !important;");
     }
-    if (storyCreate != null)
-    {
-        storyCreate[0].setAttribute("style", "display: none !important;");
-    }
+    storyCreate[0].setAttribute("style", "display: none !important;");
     about[0].setAttribute("style", "display: none !important;");
     ts_wrap.setAttribute("style", "display: none !important;");
     ads.setAttribute("style", "display: none !important;");
